@@ -74,10 +74,11 @@ PORT=XXXX (Port where the server will listen petitions, by default is 3000)
       * ```#1``` will be assign to a non numeric value or values less than 1
       * if the value passed is greater than the total of the groups of images available, the app will show the last group of images
   * JSON
-      * The client is waiting for a structure like the one shown on Motivation section, but also accepts:
-        - Accepts a single object (it doesn't need to be wrap in an Array structure)
-        - ```images``` can be an ```Array``` (we can random the image to show) or a ```String``` (the image is fix)
-  * 
+    * The client is waiting for a structure like the one shown on Motivation section, but also accepts:
+      - Accepts a single object (it doesn't need to be wrap in an Array structure)
+      - ```images```
+        - can be an ```Array``` (we can random the image to show) or a ```String``` (the image is fix)
+        - if no information is provided, the ```singleBlockModel``` will assign an default address.
 ### Coding Style
 
 All the code has been developed under the [JavaScript Standard Style](http://standardjs.com/)   
