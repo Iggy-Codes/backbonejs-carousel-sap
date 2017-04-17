@@ -1,0 +1,19 @@
+{
+  "name": "carousel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "dev": "nodemon index",
+    "postinstall": "./node_modules/bower/bin/bower install",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2"
+  }
+}
